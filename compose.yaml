@@ -1,0 +1,9 @@
+services:
+  postgres:
+    image: 'postgres:latest'
+    environment:
+      - 'POSTGRES_DB=challengedb'
+      - 'POSTGRES_PASSWORD=senhasupersecretaimpossiveldescobrir'
+      - 'POSTGRES_USER=usuariosupremo'
+    ports:
+      - '5432:5432'

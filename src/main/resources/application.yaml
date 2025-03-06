@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: Challenge
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/challengedb
+    username: usuariosupremo
+    password: senhasupersecretaimpossiveldescobrir
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+  server:
+    port: 8080
