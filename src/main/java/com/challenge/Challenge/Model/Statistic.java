@@ -1,14 +1,12 @@
 package com.challenge.Challenge.Model;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
+import jakarta.persistence.*;
 
 import java.time.OffsetDateTime;
 import java.util.UUID;
 
 @Entity
+@Table(name = "tb_statistic")
 public class Statistic {
     @Id
     @GeneratedValue(strategy = GenerationType.UUID)

@@ -26,11 +26,19 @@ Para instalar as dependências do projeto usando o maven, basta executar o coman
 ```bash
 mvn clean install
 ```
+Caso o maven ja tenha reconhecido o projeto e suas dependências, basta iniciar o projeto usando o comando:
 
-Após a instalação dos dependências, basta executar o comando:
 ```bash
 mvn spring-boot:run
 ```
+
+Docker compose vai criar um container para o banco de dados postgresql na porta 5432.
+
+Banco de dados será criado com o nome `challengedb` com usuário `usuariosupermo` e senha `senhasupersecretaimpossiveldescobrir`. Extremamente seguros, não?
+
+Tabelas serão criadas automaticamente.
+- Transações serão armazenadas em uma tabela chamada `tb_transaction`.
+- Estatísticas serão armazenadas em uma tabela chamada `tb_statistic`.
 
 ## Endpoints
 
@@ -46,11 +54,11 @@ Cria uma nova transação
 ```
 #### Response
 - `201 Created` sem nenhum corpo
-    - A transação foi aceita (ou seja foi validada, está válida e foi registrada)
+  - A transação foi aceita (ou seja foi validada, está válida e foi registrada)
 - `422 Unprocessable Entity` sem nenhum corpo
-    - A transação **não** foi aceita por qualquer motivo (1 ou mais dos critérios de aceite não foram atendidos - por exemplo: uma transação com valor menor que `0`)
+  - A transação **não** foi aceita por qualquer motivo (1 ou mais dos critérios de aceite não foram atendidos - por exemplo: uma transação com valor menor que `0`)
 - `400 Bad Request` sem nenhum corpo
-    - A API não compreendeu a requisição do cliente (por exemplo: um JSON inválido)
+  - A API não compreendeu a requisição do cliente (por exemplo: um JSON inválido)
 
 ### GET /transactions/estatisticas
 Retorna as estatísticas da transação
@@ -86,7 +94,7 @@ Fora do Escopo do [DESAFIO](./README_Desafio.md), existente para que seja possí
 Não há parâmetros
 
 #### Response
- - Lista de transações:
+- Lista de transações:
 
 ```json 
 {
@@ -104,4 +112,4 @@ Não há parâmetros
 
 #### Response
 - `200 OK` sem nenhum corpo
-    - Todas as informações foram apagadas com sucesso.
+  - Todas as informações foram apagadas com sucesso.

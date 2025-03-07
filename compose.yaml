@@ -1,9 +1,14 @@
 services:
   postgres:
     image: 'postgres:latest'
+    restart: always
     environment:
       - 'POSTGRES_DB=challengedb'
       - 'POSTGRES_PASSWORD=senhasupersecretaimpossiveldescobrir'
       - 'POSTGRES_USER=usuariosupremo'
     ports:
       - '5432:5432'
+    volumes:
+      - './postgres-data:/var/lib/postgresql/data'
+volumes:
+  postgres-data:
