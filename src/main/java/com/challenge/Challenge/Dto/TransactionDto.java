@@ -1,14 +1,15 @@
 package com.challenge.Challenge.Dto;
 
 import jakarta.validation.constraints.DecimalMin;
+import jakarta.validation.constraints.PastOrPresent;
 
 import java.math.BigDecimal;
-import java.time.OffsetDateTime;
+import java.time.ZonedDateTime;
 
 public record TransactionDto(
         @DecimalMin(value = "0.01", message = "Amount must be greater than zero")
         BigDecimal valor,
-        //@PastOrPresent(message = "Date must be in the past")
-        OffsetDateTime dataHora
+        @PastOrPresent(message = "Date must be in the past")
+        ZonedDateTime dataHora
 ) {
 }

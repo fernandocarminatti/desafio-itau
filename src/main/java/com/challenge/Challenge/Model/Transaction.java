@@ -3,7 +3,7 @@ package com.challenge.Challenge.Model;
 import jakarta.persistence.*;
 
 import java.math.BigDecimal;
-import java.time.OffsetDateTime;
+import java.time.ZonedDateTime;
 import java.util.UUID;
 
 @Entity
@@ -15,11 +15,11 @@ public class Transaction {
     @Column(name = "amount")
     private BigDecimal amount;
     @Column(name = "timestamp")
-    private OffsetDateTime timestamp;
+    private ZonedDateTime timestamp;
 
     public Transaction() {
     }
-    public Transaction(BigDecimal amount, OffsetDateTime timestamp) {
+    public Transaction(BigDecimal amount, ZonedDateTime timestamp) {
         this.amount = amount;
         this.timestamp = timestamp;
     }
@@ -40,11 +40,11 @@ public class Transaction {
         this.amount = amount;
     }
 
-    public OffsetDateTime getTimestamp() {
+    public ZonedDateTime getTimestamp() {
         return timestamp;
     }
 
-    public void setTimestamp(OffsetDateTime timestamp) {
+    public void setTimestamp(ZonedDateTime timestamp) {
         this.timestamp = timestamp;
     }
 

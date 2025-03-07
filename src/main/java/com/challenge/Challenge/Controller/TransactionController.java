@@ -14,7 +14,7 @@ import java.util.Optional;
 @RequestMapping("/transactions")
 public class TransactionController {
 
-    Logger logger = LoggerFactory.getLogger(TransactionController.class);
+    private final Logger LOGGER = LoggerFactory.getLogger(TransactionController.class);
     TransactionService transactionService;
 
     public TransactionController(TransactionService transactionService) {
@@ -23,10 +23,9 @@ public class TransactionController {
 
     @PostMapping("/transacao")
     public ResponseEntity<?> createTransaction(@Valid @RequestBody TransactionDto transactionDto){
-        logger.info("Request to create a transaction");
+        LOGGER.info("Request to create a transaction with amount: " + transactionDto.valor() + " and date: " + transactionDto.dataHora());
         Optional<TransactionDto> transactionResponse = transactionService.createTransaction(transactionDto);
         if(transactionResponse.isPresent()){
-            logger.info("Transaction created successfully");
             return ResponseEntity.status(201).build();
         }
         return ResponseEntity.badRequest().build();
@@ -34,7 +33,7 @@ public class TransactionController {
 
     @GetMapping()
     public ResponseEntity<?> getAllTransactions(){
-        logger.info("Request for all transactions");
+        LOGGER.info("Request for all transactions");
         return ResponseEntity.ok(transactionService.getAllTransactions());
     }
 }
