@@ -44,12 +44,13 @@ Tabelas serão criadas automaticamente.
 
 ### POST /transactions/transacao
 Cria uma nova transação
-
+- Valor em decimal com ponto flutuante maior do que zero.
+- **Data/Hora no padrão ISO 8601** em que a transação aconteceu
 #### Request
 ```json
 {
   "valor": 100.00,
-  "dataHora": "2023-03-01T00:00:00Z"
+  "dataHora": "2020-08-07T12:34:56.789-03:00"
 }
 ```
 #### Response
