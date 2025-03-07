@@ -1,5 +1,6 @@
 package com.challenge.Challenge.Service;
 
+import com.challenge.Challenge.Dto.StatisticsResponseDto;
 import com.challenge.Challenge.Dto.TransactionDto;
 import com.challenge.Challenge.Model.Statistic;
 import com.challenge.Challenge.Model.StatisticsSummary;
@@ -33,13 +34,19 @@ public class TransactionService {
         return Optional.of(transactionDto);
     }
 
-    public Statistic getStatistics() {
+    public StatisticsResponseDto getStatistics() {
         OffsetDateTime timestamp = OffsetDateTime.now().minusMinutes(DEFAULT_MINUTES_OFFSET);
+        LOGGER.info("Generating statistics for timestamp: " + timestamp);
         StatisticsSummary statisticsData = transactionRepository.getStatistics(timestamp);
-        LOGGER.info("Statistics data: " + statisticsData);
+        if (statisticsData.getCount() == 0) {
+            LOGGER.info("No transactions found for timestamp: " + timestamp);
+            statisticsRepository.save(new Statistic(0, 0, 0, 0, 0));
+            return new StatisticsResponseDto(0, 0, 0, 0, 0);
+        }
         Statistic statistics = new Statistic(statisticsData.getCount(), statisticsData.getSum(), statisticsData.getAvg(), statisticsData.getMin(), statisticsData.getMax());
         statisticsRepository.save(statistics);
-        return statistics;
+        return new StatisticsResponseDto(statisticsData.getCount(), statisticsData.getSum(), statisticsData.getAvg(), statisticsData.getMin(), statisticsData.getMax());
+
     }
 
     public List<Transaction> getAllTransactions() {
