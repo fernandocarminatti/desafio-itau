@@ -40,7 +40,7 @@ Tabelas serão criadas automaticamente.
 - Transações serão armazenadas em uma tabela chamada `tb_transaction`.
 - Estatísticas serão armazenadas em uma tabela chamada `tb_statistic`.
 
-## Endpoints
+## Endpoints - LOCALHOST:8080
 
 ### POST /transactions/transacao
 Cria uma nova transação
