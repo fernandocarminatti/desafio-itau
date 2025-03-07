@@ -4,12 +4,12 @@ import jakarta.validation.constraints.DecimalMin;
 import jakarta.validation.constraints.PastOrPresent;
 
 import java.math.BigDecimal;
-import java.time.ZonedDateTime;
+import java.time.OffsetDateTime;
 
 public record TransactionDto(
         @DecimalMin(value = "0.01", message = "Amount must be greater than zero")
         BigDecimal valor,
         @PastOrPresent(message = "Date must be in the past")
-        ZonedDateTime dataHora
+        OffsetDateTime dataHora
 ) {
 }
