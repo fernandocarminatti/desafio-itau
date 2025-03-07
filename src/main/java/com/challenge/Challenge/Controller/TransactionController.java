@@ -25,7 +25,7 @@ public class TransactionController {
 
     @PostMapping("/transacao")
     public ResponseEntity<?> createTransaction(@Valid @RequestBody TransactionDto transactionDto){
-        LOGGER.info("Request to create a transaction with amount: " + transactionDto.valor() + " and date: " + transactionDto.dataHora());
+        LOGGER.info("New Request ->  Amount: " + transactionDto.valor() + " | Timestamp: " + transactionDto.dataHora());
         Optional<TransactionDto> transactionResponse = transactionService.createTransaction(transactionDto);
         if(transactionResponse.isPresent()){
             return ResponseEntity.status(201).build();
@@ -35,7 +35,6 @@ public class TransactionController {
 
     @GetMapping("/estatisticas")
     public ResponseEntity<?> getTransactionStatistics(){
-        LOGGER.info("Request for transaction statistics");
         StatisticsResponseDto responseDto = transactionService.getStatistics();
         return ResponseEntity.ok(responseDto);
     }

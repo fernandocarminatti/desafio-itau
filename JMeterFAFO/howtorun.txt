@@ -1,0 +1,5 @@
+ Inside bin folder of JMeter run the following command to run the test plan:
+    * -n means non-gui mode
+    * -t means the test plan file
+    * -l means the file to save the results. Will be saved in JMeter's bin folder
+ ./jmeter -n -t PROJECTPATH/JMeterFAFO/desafio-itau-plan.jmx -l desafio-itau.jtl

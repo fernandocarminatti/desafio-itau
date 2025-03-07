@@ -30,13 +30,12 @@ public class TransactionService {
     public Optional<TransactionDto> createTransaction(TransactionDto transactionDto) {
         Transaction transaction = new Transaction(transactionDto.valor(), transactionDto.dataHora());
         transactionRepository.save(transaction);
-        LOGGER.info("Transaction created successfully with id: " + transaction.getId());
+        LOGGER.info("Transaction Generated. ID: " + transaction.getId());
         return Optional.of(transactionDto);
     }
 
     public StatisticsResponseDto getStatistics() {
         OffsetDateTime timestamp = OffsetDateTime.now().minusMinutes(DEFAULT_MINUTES_OFFSET);
-        LOGGER.info("Generating statistics for timestamp: " + timestamp);
         StatisticsSummary statisticsData = transactionRepository.getStatistics(timestamp);
         if (statisticsData.getCount() == 0) {
             LOGGER.info("No transactions found for timestamp: " + timestamp);
@@ -45,6 +44,7 @@ public class TransactionService {
         }
         Statistic statistics = new Statistic(statisticsData.getCount(), statisticsData.getSum(), statisticsData.getAvg(), statisticsData.getMin(), statisticsData.getMax());
         statisticsRepository.save(statistics);
+        LOGGER.info("Statistic Generated. ID: " + statistics.getId() + " | Generated for timestamp: " + timestamp);
         return new StatisticsResponseDto(statisticsData.getCount(), statisticsData.getSum(), statisticsData.getAvg(), statisticsData.getMin(), statisticsData.getMax());
 
     }
