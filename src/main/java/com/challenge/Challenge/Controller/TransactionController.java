@@ -44,4 +44,12 @@ public class TransactionController {
         LOGGER.info("Request for all transactions");
         return ResponseEntity.ok(transactionService.getAllTransactions());
     }
+
+    @DeleteMapping("/transacao")
+    public ResponseEntity<?> deleteAllTransactions(){
+        LOGGER.info("Request to delete all transactions");
+        transactionService.deleteAllTransactions();
+        return ResponseEntity.ok().build();
+    }
+
 }

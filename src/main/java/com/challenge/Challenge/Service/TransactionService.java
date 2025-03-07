@@ -52,4 +52,9 @@ public class TransactionService {
     public List<Transaction> getAllTransactions() {
         return transactionRepository.findAll();
     }
+
+    public void deleteAllTransactions() {
+        LOGGER.info("DELETEING ALL TRANSACTIONS... | Timestamp: " + OffsetDateTime.now());
+        transactionRepository.deleteAll();
+    }
 }
