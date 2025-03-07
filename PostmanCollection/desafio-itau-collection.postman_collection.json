@@ -1,0 +1,64 @@
+{
+	"info": {
+		"_postman_id": "db22b257-02c8-4fe4-ac31-4390210c3728",
+		"name": "desafio-itau-collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "36279020"
+	},
+	"item": [
+		{
+			"name": "POST ~ Nova Transação",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"valor\": 100.00,\n    \"dataHora\": \"2025-08-07T12:34:56.789-03:00\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "localhost:8080/transactions/transacao"
+			},
+			"response": []
+		},
+		{
+			"name": "GET ~ Estatísticas dos ultimos 60 minutos",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": "localhost:8080/transactions/estatisticas"
+			},
+			"response": []
+		},
+		{
+			"name": "GET ~ Todas transações",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": "localhost:8080/transactions"
+			},
+			"response": []
+		},
+		{
+			"name": "DELETE ~ Remove todas transações",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "DELETE",
+				"header": [],
+				"url": "localhost:8080/transactions"
+			},
+			"response": []
+		}
+	]
+}
