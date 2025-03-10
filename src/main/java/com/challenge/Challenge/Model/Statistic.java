@@ -30,6 +30,10 @@ public class Statistic {
         this.timestamp = OffsetDateTime.now();
     }
 
+    public static Statistic zeroedStatistics(){
+        return new Statistic(0, 0, 0, 0, 0);
+    }
+
     public UUID getId() {
         return id;
     }

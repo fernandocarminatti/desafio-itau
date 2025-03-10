@@ -7,4 +7,8 @@ public record StatisticsResponseDto(long count, double sum, double avg, double m
     public StatisticsResponseDto fromQuery(StatisticsSummary statisticsSummary) {
         return new StatisticsResponseDto(statisticsSummary.getCount(), statisticsSummary.getSum(), statisticsSummary.getAvg(), statisticsSummary.getMin(), statisticsSummary.getMax());
     }
+
+    public static StatisticsResponseDto zeroedStatisticResponse(){
+        return new StatisticsResponseDto(0, 0, 0, 0, 0);
+    }
 }

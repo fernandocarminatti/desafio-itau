@@ -17,6 +17,6 @@ public interface TransactionRepository extends JpaRepository<Transaction, UUID> 
             "AVG(t.amount) as avg, MIN(t.amount) as min, MAX(t.amount) as max " +
             "FROM Transaction t " +
             "WHERE t.timestamp > :timestamp")
-    StatisticsSummary getStatistics(@Param("timestamp") OffsetDateTime timestamp);
+    StatisticsSummary getSummaryOfTransactions(@Param("timestamp") OffsetDateTime timestamp);
 
 }

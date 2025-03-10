@@ -1,8 +1,6 @@
 package com.challenge.Challenge.Controller;
 
-import com.challenge.Challenge.Dto.StatisticsResponseDto;
 import com.challenge.Challenge.Dto.TransactionDto;
-import com.challenge.Challenge.Model.Statistic;
 import com.challenge.Challenge.Service.TransactionService;
 import jakarta.validation.Valid;
 import org.slf4j.Logger;
@@ -17,7 +15,7 @@ import java.util.Optional;
 public class TransactionController {
 
     private final Logger LOGGER = LoggerFactory.getLogger(TransactionController.class);
-    TransactionService transactionService;
+    private TransactionService transactionService;
 
     public TransactionController(TransactionService transactionService) {
         this.transactionService = transactionService;
@@ -31,12 +29,6 @@ public class TransactionController {
             return ResponseEntity.status(201).build();
         }
         return ResponseEntity.badRequest().build();
-    }
-
-    @GetMapping("/estatisticas")
-    public ResponseEntity<?> getTransactionStatistics(){
-        StatisticsResponseDto responseDto = transactionService.getStatistics();
-        return ResponseEntity.ok(responseDto);
     }
 
     @GetMapping()
