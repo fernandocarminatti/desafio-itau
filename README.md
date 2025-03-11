@@ -58,7 +58,7 @@ Cria uma nova transação
 - `400 Bad Request` sem nenhum corpo
   - A API não compreendeu a requisição do cliente (por exemplo: um JSON inválido)
 
-### GET /transactions/estatisticas
+### GET /statistics/estatisticas
 Retorna as estatísticas da transação
 
 #### Request
@@ -80,9 +80,9 @@ No [DESAFIO](./README_Desafio.md), o sistema não armazena as transações, apen
 
 Implementado de forma que seja possível consultar estatísticas de um período de tempo mais maleável, por enquanto hardcoded em 60 minutos (1 hora) a partir do timestamp da request.
 
-Baseado na ideia de:
-* Implementar variáveis de ambiente para configurar não somente o período, mas também os demais dados da aplicação, como por exemplo os dados de conexão com o banco de dados que por hora estão hardcoded.
-* Permitir alterar o período da geração de estatísticas usando 'Spring Boot Actuator'.
+TODO:
+  - Implementar timestamp via request.
+  - Implementar timestamp via variáveis de ambiente e com isso implementar endpoint para permitir refresh do application.yaml
 
 ### GET /transactions
 Retorna todas as transações.
