@@ -31,11 +31,17 @@ Caso tenha sucesso na criação do .jar, basta rodar o seguinte comando:
 ```bash
 docker-compose up -d
 ```
+ - -d significa detached. Após o comando os containers vão ser iniciados e não vão estar atrelados ao shell onde o comando foi usado.
 
 Docker compose vai gerenciar a criação dos containers bem como o banco de dados e usuário de acesso.
 Tabelas serão criadas automaticamente.
 - Transações serão armazenadas em uma tabela chamada `tb_transaction`.
 - Estatísticas serão armazenadas em uma tabela chamada `tb_statistic`.
+
+Para parar a aplicação basta rodar o comando:
+```bash
+docker-compose down
+```
 
 ## Endpoints - LOCALHOST:8080
 
