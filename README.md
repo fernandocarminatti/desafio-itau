@@ -8,11 +8,9 @@ O desafio consiste em criar um sistema de transações financeiras, onde o usuá
 ## Tecnologias
 
 - Java 17
-- Spring Boot
-- JPA
 - Maven
+- Docker
 - Docker Compose
-- PostgreSQL
 
 ## Clonar e executar o projeto
 Certifique-se de que as Tecnologias estão instaladas no seu ambiente.
@@ -21,21 +19,20 @@ Clone o projeto usando o comando:
 ```bash
 git clone https://github.com/frnd/desafio-itau-backend.git
 ```
-
-Para instalar as dependências do projeto usando o maven, basta executar o comando:
-```bash
-mvn clean install
-```
-Caso o maven ja tenha reconhecido o projeto e suas dependências, basta iniciar o projeto usando o comando:
+"Empacote" o projeto usando maven com o comando:
 
 ```bash
-mvn spring-boot:run
+mvn clean package
+```
+- Um arquivo .jar será gerado na pasta ./target com o nome ChallengeApp-1.0.jar.
+
+Caso tenha sucesso na criação do .jar, basta rodar o seguinte comando:
+
+```bash
+docker-compose up -d
 ```
 
-Docker compose vai criar um container para o banco de dados postgresql na porta 5432.
-
-Banco de dados será criado com o nome `challengedb` com usuário `usuariosupermo` e senha `senhasupersecretaimpossiveldescobrir`. Extremamente seguros, não?
-
+Docker compose vai gerenciar a criação dos containers bem como o banco de dados e usuário de acesso.
 Tabelas serão criadas automaticamente.
 - Transações serão armazenadas em uma tabela chamada `tb_transaction`.
 - Estatísticas serão armazenadas em uma tabela chamada `tb_statistic`.

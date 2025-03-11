@@ -9,8 +9,8 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.challenge</groupId>
-	<artifactId>Challenge</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<artifactId>ChallengeApp</artifactId>
+	<version>1.0</version>
 	<name>Challenge</name>
 	<description>Challenge Itau</description>
 	<url/>
