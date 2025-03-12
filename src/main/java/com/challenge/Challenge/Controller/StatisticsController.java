@@ -10,16 +10,14 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 @RequestMapping("/statistics")
 public class StatisticsController {
+    private final StatisticsService statisticsService;
 
-    private StatisticsService statisticsService;
-
-    public StatisticsController(StatisticsService statisticsService){
+    public StatisticsController(StatisticsService statisticsService) {
         this.statisticsService = statisticsService;
     }
 
     @GetMapping("/estatisticas")
-    public ResponseEntity<?> getTransactionStatistics(){
-        StatisticsResponseDto responseDto = statisticsService.getStatistics();
-        return ResponseEntity.ok(responseDto);
+    public ResponseEntity<StatisticsResponseDto> getStatistics() {
+        return ResponseEntity.ok(statisticsService.getStatistics());
     }
 }

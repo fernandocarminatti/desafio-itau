@@ -12,13 +12,16 @@ public class Transaction {
     @Id
     @GeneratedValue(strategy = GenerationType.UUID)
     private UUID id;
+
     @Column(name = "amount")
     private BigDecimal amount;
+
     @Column(name = "timestamp")
     private OffsetDateTime timestamp;
 
     public Transaction() {
     }
+
     public Transaction(BigDecimal amount, OffsetDateTime timestamp) {
         this.amount = amount;
         this.timestamp = timestamp;
@@ -48,11 +51,12 @@ public class Transaction {
         this.timestamp = timestamp;
     }
 
+    @Override
     public String toString() {
         return "Transaction{" +
                 "id=" + id +
-                ", valor=" + amount +
-                ", dataHora=" + timestamp +
+                ", amount=" + amount +
+                ", timestamp=" + timestamp +
                 '}';
     }
 }

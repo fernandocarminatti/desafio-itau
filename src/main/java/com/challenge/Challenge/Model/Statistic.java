@@ -18,6 +18,9 @@ public class Statistic {
     private double max;
     private OffsetDateTime timestamp;
 
+    private static final long ZERO_COUNT = 0L;
+    private static final double ZERO_DOUBLE = 0.0;
+
     public Statistic() {
     }
 
@@ -30,8 +33,8 @@ public class Statistic {
         this.timestamp = OffsetDateTime.now();
     }
 
-    public static Statistic zeroedStatistics(){
-        return new Statistic(0, 0, 0, 0, 0);
+    public static Statistic zeroedStatistics() {
+        return new Statistic(ZERO_COUNT, ZERO_DOUBLE, ZERO_DOUBLE, ZERO_DOUBLE, ZERO_DOUBLE);
     }
 
     public UUID getId() {
@@ -46,7 +49,7 @@ public class Statistic {
         return count;
     }
 
-    public void setCount(int count) {
+    public void setCount(long count) {
         this.count = count;
     }
 
@@ -90,6 +93,7 @@ public class Statistic {
         this.timestamp = timestamp;
     }
 
+    @Override
     public String toString() {
         return "Statistic{" +
                 "id=" + id +

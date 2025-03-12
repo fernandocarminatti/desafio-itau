@@ -11,22 +11,13 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
 
 @ControllerAdvice
 public class GlobalExceptionHandler {
-
     private static final Logger logger = LoggerFactory.getLogger(GlobalExceptionHandler.class);
+    private static final String VALIDATION_ERROR_PREFIX = "Validation Fail: ";
 
     @ExceptionHandler(MethodArgumentNotValidException.class)
     public ResponseEntity<Exception> handleValidationException(MethodArgumentNotValidException ex) {
-        BindingResult bindingResult = ex.getBindingResult();
-        StringBuilder errorMessage = new StringBuilder("Validation Fail: ");
-        bindingResult.getFieldErrors().forEach(fieldError -> {
-            errorMessage.append("Rejected value: ")
-                    .append(fieldError.getRejectedValue())
-                    .append(" for field: ")
-                    .append(fieldError.getField())
-                    .append(". ")
-                    .append(fieldError.getDefaultMessage());
-        });
-        logger.error(errorMessage.toString());
+        String validationErrorMessage = buildValidationErrorMessage(ex.getBindingResult());
+        logger.error(validationErrorMessage);
         return ResponseEntity.unprocessableEntity().build();
     }
 
@@ -34,5 +25,14 @@ public class GlobalExceptionHandler {
     public ResponseEntity<Exception> handleHttpMessageNotReadableException(HttpMessageNotReadableException ex) {
         logger.error("Malformed JSON format: " + ex.getMessage());
         return ResponseEntity.badRequest().build();
+    }
+
+    private String buildValidationErrorMessage(BindingResult bindingResult) {
+        StringBuilder messageBuilder = new StringBuilder(VALIDATION_ERROR_PREFIX);
+        bindingResult.getFieldErrors().forEach(fieldError -> messageBuilder
+                .append("Rejected value: ").append(fieldError.getRejectedValue())
+                .append(" for field: ").append(fieldError.getField())
+                .append(". ").append(fieldError.getDefaultMessage()));
+        return messageBuilder.toString();
     }
 }

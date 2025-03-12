@@ -14,17 +14,17 @@ import java.util.Optional;
 
 @Service
 public class TransactionService {
-    private final Logger LOGGER = LoggerFactory.getLogger(TransactionService.class);
-    private TransactionRepository transactionRepository;
+    private static final Logger LOGGER = LoggerFactory.getLogger(TransactionService.class);
+    private final TransactionRepository transactionRepository;
 
     public TransactionService(TransactionRepository transactionRepository) {
         this.transactionRepository = transactionRepository;
     }
 
     public Optional<TransactionDto> createTransaction(TransactionDto transactionDto) {
-        Transaction transaction = new Transaction(transactionDto.valor(), transactionDto.dataHora());
+        Transaction transaction = buildTransaction(transactionDto);
         transactionRepository.save(transaction);
-        LOGGER.info("Transaction Generated. ID: " + transaction.getId());
+        LOGGER.info("Transaction Generated. ID: {}", transaction.getId());
         return Optional.of(transactionDto);
     }
 
@@ -33,11 +33,15 @@ public class TransactionService {
     }
 
     public void deleteAllTransactions() {
-        LOGGER.info("DELETEING ALL TRANSACTIONS... | Timestamp: " + OffsetDateTime.now());
+        LOGGER.info("Request to delete all transactions.");
         transactionRepository.deleteAll();
     }
 
-    public StatisticsSummary getSummaryOfTransactions(OffsetDateTime timestamp){
+    public StatisticsSummary getSummaryOfTransactions(OffsetDateTime timestamp) {
         return transactionRepository.getSummaryOfTransactions(timestamp);
+    }
+
+    public Transaction buildTransaction(TransactionDto transactionDto) {
+        return new Transaction(transactionDto.valor(), transactionDto.dataHora());
     }
 }

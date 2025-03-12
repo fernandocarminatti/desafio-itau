@@ -14,34 +14,32 @@ import java.util.Optional;
 @RequestMapping("/transactions")
 public class TransactionController {
 
-    private final Logger LOGGER = LoggerFactory.getLogger(TransactionController.class);
-    private TransactionService transactionService;
+    private static final Logger LOGGER = LoggerFactory.getLogger(TransactionController.class);
+    private final TransactionService transactionService;
 
     public TransactionController(TransactionService transactionService) {
         this.transactionService = transactionService;
     }
 
     @PostMapping("/transacao")
-    public ResponseEntity<?> createTransaction(@Valid @RequestBody TransactionDto transactionDto){
-        LOGGER.info("New Request ->  Amount: " + transactionDto.valor() + " | Timestamp: " + transactionDto.dataHora());
-        Optional<TransactionDto> transactionResponse = transactionService.createTransaction(transactionDto);
-        if(transactionResponse.isPresent()){
-            return ResponseEntity.status(201).build();
-        }
-        return ResponseEntity.badRequest().build();
+    public ResponseEntity<Void> createTransaction(@Valid @RequestBody TransactionDto transactionDto) {
+        LOGGER.info("New Request -> Amount: {} | Timestamp: {}", transactionDto.valor(), transactionDto.dataHora());
+        Optional<TransactionDto> createdTransaction = transactionService.createTransaction(transactionDto);
+        return createdTransaction.isPresent()
+                ? ResponseEntity.status(201).build()
+                : ResponseEntity.badRequest().build();
     }
 
-    @GetMapping()
-    public ResponseEntity<?> getAllTransactions(){
+    @GetMapping
+    public ResponseEntity<?> getAllTransactions() {
         LOGGER.info("Request for all transactions");
         return ResponseEntity.ok(transactionService.getAllTransactions());
     }
 
     @DeleteMapping("/transacao")
-    public ResponseEntity<?> deleteAllTransactions(){
+    public ResponseEntity<Void> deleteAllTransactions() {
         LOGGER.info("Request to delete all transactions");
         transactionService.deleteAllTransactions();
         return ResponseEntity.ok().build();
     }
-
 }
