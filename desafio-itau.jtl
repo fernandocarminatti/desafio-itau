@@ -1,0 +1,536 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1741785713649,149,Home Page,201,,Scenario 1 1-1,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,139,0,35
+1741785713650,150,Home Page,201,,Scenario 1 1-4,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,131,0,34
+1741785713651,149,Home Page,201,,Scenario 1 1-2,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,129,0,33
+1741785713650,151,Home Page,201,,Scenario 1 1-5,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,141,0,34
+1741785713650,151,Home Page,201,,Scenario 1 1-3,,false,Response was null,92,452,5,5,http://localhost:8080/transactions/transacao,141,0,34
+1741785714843,23,Page Returning 404,404,,Scenario 1 1-3,text,true,,548,346,5,5,http://localhost:8080/test,23,0,2
+1741785714817,49,Page Returning 404,404,,Scenario 1 1-1,text,true,,548,346,5,5,http://localhost:8080/test,49,0,0
+1741785714812,55,Page Returning 404,404,,Scenario 1 1-5,text,true,,548,346,5,5,http://localhost:8080/test,55,0,1
+1741785714892,26,Page Returning 404,404,,Scenario 1 1-2,text,true,,548,346,5,5,http://localhost:8080/test,26,0,3
+1741785714890,40,Page Returning 404,404,,Scenario 1 1-4,text,true,,548,346,5,5,http://localhost:8080/test,40,0,3
+1741785714907,45,Home Page,201,,Scenario 1 1-5,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,45,0,3
+1741785714907,51,Home Page,201,,Scenario 1 1-3,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,51,0,3
+1741785714908,53,Home Page,201,,Scenario 1 1-1,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,53,0,3
+1741785714920,48,Home Page,201,,Scenario 1 1-2,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,48,0,5
+1741785714935,35,Home Page,201,,Scenario 1 1-4,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,35,0,1
+1741785715985,11,Page Returning 404,404,,Scenario 1 1-5,text,true,,548,346,5,5,http://localhost:8080/test,11,0,1
+1741785715991,17,Page Returning 404,404,,Scenario 1 1-2,text,true,,548,346,5,5,http://localhost:8080/test,17,0,1
+1741785716017,11,Page Returning 404,404,,Scenario 1 1-3,text,true,,548,346,5,5,http://localhost:8080/test,11,0,1
+1741785715998,34,Home Page,201,,Scenario 1 1-5,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,34,0,1
+1741785716012,42,Home Page,201,,Scenario 1 1-2,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,42,0,3
+1741785716039,21,Page Returning 404,404,,Scenario 1 1-4,text,true,,548,346,5,5,http://localhost:8080/test,21,0,1
+1741785716030,34,Home Page,201,,Scenario 1 1-3,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,34,0,0
+1741785716055,23,Page Returning 404,404,,Scenario 1 1-1,text,true,,548,346,5,5,http://localhost:8080/test,23,0,0
+1741785716070,34,Home Page,201,,Scenario 1 1-4,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,34,0,6
+1741785716087,30,Home Page,201,,Scenario 1 1-1,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,30,0,2
+1741785717110,10,Page Returning 404,404,,Scenario 1 1-4,text,true,,548,346,5,5,http://localhost:8080/test,10,0,1
+1741785717124,11,Page Returning 404,404,,Scenario 1 1-5,text,true,,548,346,5,5,http://localhost:8080/test,11,0,1
+1741785717130,21,Page Returning 404,404,,Scenario 1 1-3,text,true,,548,346,5,5,http://localhost:8080/test,21,0,1
+1741785717141,18,Page Returning 404,404,,Scenario 1 1-1,text,true,,548,346,5,5,http://localhost:8080/test,18,0,1
+1741785717124,37,Home Page,201,,Scenario 1 1-4,,false,Response was null,92,452,5,5,http://localhost:8080/transactions/transacao,37,0,1
+1741785717138,35,Home Page,201,,Scenario 1 1-5,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,35,0,0
+1741785717162,16,Page Returning 404,404,,Scenario 1 1-2,text,true,,548,346,5,5,http://localhost:8080/test,16,0,2
+1741785717152,43,Home Page,201,,Scenario 1 1-3,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,43,0,1
+1741785717161,39,Home Page,201,,Scenario 1 1-1,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,39,0,0
+1741785717179,29,Home Page,201,,Scenario 1 1-2,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,29,0,1
+1741785718208,7,Page Returning 404,404,,Scenario 1 1-4,text,true,,548,346,5,5,http://localhost:8080/test,7,0,1
+1741785718216,17,Home Page,201,,Scenario 1 1-4,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,17,0,1
+1741785718262,10,Page Returning 404,404,,Scenario 1 1-5,text,true,,548,346,5,5,http://localhost:8080/test,10,0,1
+1741785718273,16,Page Returning 404,404,,Scenario 1 1-1,text,true,,548,346,5,5,http://localhost:8080/test,16,0,0
+1741785718273,21,Home Page,201,,Scenario 1 1-5,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,21,0,0
+1741785718279,17,Page Returning 404,404,,Scenario 1 1-3,text,true,,548,346,5,5,http://localhost:8080/test,17,0,1
+1741785718299,17,Page Returning 404,404,,Scenario 1 1-2,text,true,,548,346,5,5,http://localhost:8080/test,17,0,3
+1741785718290,45,Home Page,201,,Scenario 1 1-1,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,45,0,4
+1741785718321,22,Home Page,201,,Scenario 1 1-2,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,22,0,1
+1741785718298,46,Home Page,201,,Scenario 1 1-3,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,46,0,1
+1741785719333,7,Page Returning 404,404,,Scenario 1 1-4,text,true,,548,346,5,5,http://localhost:8080/test,6,0,0
+1741785719350,12,Page Returning 404,404,,Scenario 1 1-5,text,true,,548,346,5,5,http://localhost:8080/test,11,0,1
+1741785719341,29,Home Page,201,,Scenario 1 1-4,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,29,0,0
+1741785719358,13,Page Returning 404,404,,Scenario 1 1-2,text,true,,548,346,5,5,http://localhost:8080/test,13,0,0
+1741785719363,42,Home Page,201,,Scenario 1 1-5,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,42,0,1
+1741785719388,22,Page Returning 404,404,,Scenario 1 1-1,text,true,,548,346,5,5,http://localhost:8080/test,22,0,5
+1741785719374,43,Home Page,201,,Scenario 1 1-2,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,43,0,2
+1741785719413,36,Home Page,201,,Scenario 1 1-1,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,36,0,1
+1741785719442,16,Page Returning 404,404,,Scenario 1 1-3,text,true,,548,346,5,5,http://localhost:8080/test,16,0,1
+1741785719460,26,Home Page,201,,Scenario 1 1-3,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,26,0,1
+1741785720391,8,Page Returning 404,404,,Scenario 1 1-4,text,true,,548,346,5,5,http://localhost:8080/test,8,0,0
+1741785720402,16,Home Page,201,,Scenario 1 1-4,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,16,0,2
+1741785720429,7,Page Returning 404,404,,Scenario 1 1-2,text,true,,548,346,5,5,http://localhost:8080/test,7,0,0
+1741785720437,13,Home Page,201,,Scenario 1 1-2,,false,Response was null,92,452,5,5,http://localhost:8080/transactions/transacao,13,0,1
+1741785720457,6,Page Returning 404,404,,Scenario 1 1-1,text,true,,548,346,5,5,http://localhost:8080/test,6,0,0
+1741785720464,22,Home Page,201,,Scenario 1 1-1,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,22,0,1
+1741785720499,6,Page Returning 404,404,,Scenario 1 1-5,text,true,,548,346,5,5,http://localhost:8080/test,6,0,0
+1741785720512,11,Page Returning 404,404,,Scenario 1 1-3,text,true,,548,346,5,5,http://localhost:8080/test,11,0,4
+1741785720507,21,Home Page,201,,Scenario 1 1-5,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,21,0,1
+1741785720525,18,Home Page,201,,Scenario 1 1-3,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,18,0,1
+1741785721435,7,Page Returning 404,404,,Scenario 1 1-4,text,true,,548,346,5,5,http://localhost:8080/test,7,0,0
+1741785721443,42,Home Page,201,,Scenario 1 1-4,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,42,0,3
+1741785721532,30,Page Returning 404,404,,Scenario 1 1-2,text,true,,548,346,5,5,http://localhost:8080/test,30,0,0
+1741785721580,11,Page Returning 404,404,,Scenario 1 1-1,text,true,,548,346,5,5,http://localhost:8080/test,11,0,1
+1741785721567,31,Home Page,201,,Scenario 1 1-2,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,31,0,1
+1741785721592,40,Home Page,201,,Scenario 1 1-1,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,40,0,1
+1741785721629,35,Page Returning 404,404,,Scenario 1 1-5,text,true,,548,346,5,5,http://localhost:8080/test,35,0,1
+1741785721648,19,Page Returning 404,404,,Scenario 1 1-3,text,true,,548,346,5,5,http://localhost:8080/test,19,0,0
+1741785721668,26,Home Page,201,,Scenario 1 1-3,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,26,0,4
+1741785721672,30,Home Page,201,,Scenario 1 1-5,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,30,0,1
+1741785722493,18,Page Returning 404,404,,Scenario 1 1-4,text,true,,548,346,5,5,http://localhost:8080/test,17,0,1
+1741785722513,36,Home Page,201,,Scenario 1 1-4,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,36,0,2
+1741785722671,13,Page Returning 404,404,,Scenario 1 1-1,text,true,,548,346,5,5,http://localhost:8080/test,13,0,1
+1741785722686,16,Page Returning 404,404,,Scenario 1 1-2,text,true,,548,346,5,5,http://localhost:8080/test,16,0,1
+1741785722686,35,Home Page,201,,Scenario 1 1-1,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,35,0,1
+1741785722704,25,Home Page,201,,Scenario 1 1-2,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,25,0,0
+1741785722744,9,Page Returning 404,404,,Scenario 1 1-5,text,true,,548,346,5,5,http://localhost:8080/test,9,0,1
+1741785722757,14,Page Returning 404,404,,Scenario 1 1-3,text,true,,548,346,5,5,http://localhost:8080/test,14,0,1
+1741785722754,27,Home Page,201,,Scenario 1 1-5,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,27,0,1
+1741785722772,21,Home Page,201,,Scenario 1 1-3,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,21,0,1
+1741785723612,7,Page Returning 404,404,,Scenario 1 1-4,text,true,,548,346,5,5,http://localhost:8080/test,7,0,1
+1741785723622,23,Home Page,201,,Scenario 1 1-4,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,23,0,1
+1741785723765,9,Page Returning 404,404,,Scenario 1 1-1,text,true,,548,346,5,5,http://localhost:8080/test,9,0,2
+1741785723776,22,Home Page,201,,Scenario 1 1-1,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,22,0,1
+1741785723786,12,Page Returning 404,404,,Scenario 1 1-2,text,true,,548,346,5,5,http://localhost:8080/test,12,0,0
+1741785723799,20,Home Page,201,,Scenario 1 1-2,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,20,0,1
+1741785723848,6,Page Returning 404,404,,Scenario 1 1-5,text,true,,548,346,5,5,http://localhost:8080/test,6,0,1
+1741785723868,12,Page Returning 404,404,,Scenario 1 1-3,text,true,,548,346,5,5,http://localhost:8080/test,12,0,0
+1741785723855,30,Home Page,422,,Scenario 1 1-5,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,30,0,1
+1741785723881,22,Home Page,201,,Scenario 1 1-3,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,22,0,0
+1741785724731,7,Page Returning 404,404,,Scenario 1 1-4,text,true,,548,346,5,5,http://localhost:8080/test,7,0,0
+1741785724739,15,Home Page,201,,Scenario 1 1-4,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,15,0,0
+1741785724855,7,Page Returning 404,404,,Scenario 1 1-2,text,true,,548,346,5,5,http://localhost:8080/test,7,0,1
+1741785724863,24,Home Page,201,,Scenario 1 1-2,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,24,0,0
+1741785724898,7,Page Returning 404,404,,Scenario 1 1-1,text,true,,548,346,5,5,http://localhost:8080/test,7,0,1
+1741785724906,14,Home Page,201,,Scenario 1 1-1,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,14,0,1
+1741785724930,6,Page Returning 404,404,,Scenario 1 1-3,text,true,,548,346,5,5,http://localhost:8080/test,6,0,0
+1741785724935,12,Page Returning 404,404,,Scenario 1 1-5,text,true,,548,346,5,5,http://localhost:8080/test,11,0,1
+1741785724938,24,Home Page,201,,Scenario 1 1-3,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,24,0,0
+1741785724948,22,Home Page,201,,Scenario 1 1-5,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,22,0,0
+1741785725768,19,Page Returning 404,404,,Scenario 1 1-4,text,true,,548,346,5,5,http://localhost:8080/test,19,0,1
+1741785725789,23,Home Page,201,,Scenario 1 1-4,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,23,0,0
+1741785725936,6,Page Returning 404,404,,Scenario 1 1-2,text,true,,548,346,5,5,http://localhost:8080/test,6,0,1
+1741785725943,19,Home Page,201,,Scenario 1 1-2,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,19,0,1
+1741785725989,7,Page Returning 404,404,,Scenario 1 1-1,text,true,,548,346,5,5,http://localhost:8080/test,7,0,1
+1741785726003,7,Page Returning 404,404,,Scenario 1 1-3,text,true,,548,346,5,5,http://localhost:8080/test,7,0,0
+1741785725997,19,Home Page,201,,Scenario 1 1-1,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,19,0,1
+1741785726013,27,Home Page,201,,Scenario 1 1-3,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,27,0,0
+1741785726034,8,Page Returning 404,404,,Scenario 1 1-5,text,true,,548,346,5,5,http://localhost:8080/test,8,0,0
+1741785726043,19,Home Page,201,,Scenario 1 1-5,,false,Response was null,92,452,5,5,http://localhost:8080/transactions/transacao,19,0,2
+1741785726907,7,Page Returning 404,404,,Scenario 1 1-4,text,true,,548,346,5,5,http://localhost:8080/test,7,0,0
+1741785726915,22,Home Page,201,,Scenario 1 1-4,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,22,0,0
+1741785727029,7,Page Returning 404,404,,Scenario 1 1-2,text,true,,548,346,5,5,http://localhost:8080/test,7,0,0
+1741785727037,25,Home Page,201,,Scenario 1 1-2,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,25,0,0
+1741785727090,7,Page Returning 404,404,,Scenario 1 1-1,text,true,,548,346,5,5,http://localhost:8080/test,7,0,0
+1741785727095,11,Page Returning 404,404,,Scenario 1 1-3,text,true,,548,346,5,5,http://localhost:8080/test,11,0,0
+1741785727099,23,Home Page,201,,Scenario 1 1-1,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,23,0,0
+1741785727107,22,Home Page,201,,Scenario 1 1-3,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,22,0,2
+1741785727119,12,Page Returning 404,404,,Scenario 1 1-5,text,true,,548,346,5,5,http://localhost:8080/test,12,0,1
+1741785727132,16,Home Page,201,,Scenario 1 1-5,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,16,0,1
+1741785727990,6,Page Returning 404,404,,Scenario 1 1-4,text,true,,548,346,5,5,http://localhost:8080/test,6,0,0
+1741785727997,16,Home Page,201,,Scenario 1 1-4,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,16,0,1
+1741785728136,8,Page Returning 404,404,,Scenario 1 1-2,text,true,,548,346,5,5,http://localhost:8080/test,8,0,1
+1741785728160,8,Page Returning 404,404,,Scenario 1 1-1,text,true,,548,346,5,5,http://localhost:8080/test,8,0,0
+1741785728145,31,Home Page,201,,Scenario 1 1-2,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,31,0,0
+1741785728164,18,Page Returning 404,404,,Scenario 1 1-5,text,true,,548,346,5,5,http://localhost:8080/test,18,0,1
+1741785728169,23,Home Page,201,,Scenario 1 1-1,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,23,0,1
+1741785728183,22,Home Page,422,,Scenario 1 1-5,,false,Response was null,92,452,5,5,http://localhost:8080/transactions/transacao,22,0,4
+1741785728230,15,Page Returning 404,404,,Scenario 1 1-3,text,true,,548,346,5,5,http://localhost:8080/test,15,0,8
+1741785728246,102,Home Page,201,,Scenario 1 1-3,,false,Response was null,92,452,5,5,http://localhost:8080/transactions/transacao,102,0,3
+1741785729105,7,Page Returning 404,404,,Scenario 1 1-4,text,true,,548,346,5,5,http://localhost:8080/test,7,0,1
+1741785729113,22,Home Page,201,,Scenario 1 1-4,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,22,0,0
+1741785729197,6,Page Returning 404,404,,Scenario 1 1-1,text,true,,548,346,5,5,http://localhost:8080/test,6,0,0
+1741785729204,17,Home Page,201,,Scenario 1 1-1,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,17,0,0
+1741785729217,8,Page Returning 404,404,,Scenario 1 1-2,text,true,,548,346,5,5,http://localhost:8080/test,8,0,1
+1741785729226,19,Home Page,201,,Scenario 1 1-2,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,19,0,1
+1741785729294,5,Page Returning 404,404,,Scenario 1 1-5,text,true,,548,346,5,5,http://localhost:8080/test,5,0,0
+1741785729300,12,Home Page,201,,Scenario 1 1-5,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,12,0,1
+1741785729443,6,Page Returning 404,404,,Scenario 1 1-3,text,true,,548,346,5,5,http://localhost:8080/test,6,0,0
+1741785729450,12,Home Page,201,,Scenario 1 1-3,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,12,0,0
+1741785730149,15,Page Returning 404,404,,Scenario 1 1-4,text,true,,548,346,5,5,http://localhost:8080/test,15,0,0
+1741785730165,9,Home Page,422,,Scenario 1 1-4,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,9,0,1
+1741785730316,9,Page Returning 404,404,,Scenario 1 1-1,text,true,,548,346,5,5,http://localhost:8080/test,9,0,0
+1741785730326,21,Home Page,201,,Scenario 1 1-1,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,21,0,1
+1741785730342,12,Page Returning 404,404,,Scenario 1 1-2,text,true,,548,346,5,5,http://localhost:8080/test,12,0,0
+1741785730356,15,Home Page,201,,Scenario 1 1-2,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,15,0,1
+1741785730397,7,Page Returning 404,404,,Scenario 1 1-5,text,true,,548,346,5,5,http://localhost:8080/test,7,0,1
+1741785730405,16,Home Page,201,,Scenario 1 1-5,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,16,0,1
+1741785730464,7,Page Returning 404,404,,Scenario 1 1-3,text,true,,548,346,5,5,http://localhost:8080/test,7,0,1
+1741785730472,16,Home Page,201,,Scenario 1 1-3,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,16,0,1
+1741785731269,7,Page Returning 404,404,,Scenario 1 1-4,text,true,,548,346,5,5,http://localhost:8080/test,7,0,1
+1741785731277,19,Home Page,201,,Scenario 1 1-4,,false,Response was null,92,452,5,5,http://localhost:8080/transactions/transacao,19,0,0
+1741785731350,12,Page Returning 404,404,,Scenario 1 1-1,text,true,,548,346,5,5,http://localhost:8080/test,11,0,1
+1741785731365,34,Home Page,201,,Scenario 1 1-1,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,34,0,2
+1741785731446,6,Page Returning 404,404,,Scenario 1 1-2,text,true,,548,346,5,5,http://localhost:8080/test,6,0,1
+1741785731455,16,Home Page,201,,Scenario 1 1-2,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,16,0,1
+1741785731521,6,Page Returning 404,404,,Scenario 1 1-5,text,true,,548,346,5,5,http://localhost:8080/test,6,0,0
+1741785731528,19,Home Page,201,,Scenario 1 1-5,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,19,0,1
+1741785731550,13,Page Returning 404,404,,Scenario 1 1-3,text,true,,548,346,5,5,http://localhost:8080/test,13,0,1
+1741785731566,6,Home Page,422,,Scenario 1 1-3,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,6,0,0
+1741785732360,6,Page Returning 404,404,,Scenario 1 1-4,text,true,,548,346,5,5,http://localhost:8080/test,6,0,0
+1741785732368,22,Home Page,201,,Scenario 1 1-4,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,22,0,0
+1741785732492,7,Page Returning 404,404,,Scenario 1 1-1,text,true,,548,346,5,5,http://localhost:8080/test,7,0,1
+1741785732501,22,Home Page,201,,Scenario 1 1-1,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,22,0,1
+1741785732551,17,Page Returning 404,404,,Scenario 1 1-2,text,true,,548,346,5,5,http://localhost:8080/test,17,0,1
+1741785732572,25,Page Returning 404,404,,Scenario 1 1-5,text,true,,548,346,5,5,http://localhost:8080/test,22,0,0
+1741785732572,30,Home Page,201,,Scenario 1 1-2,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,30,0,1
+1741785732602,32,Home Page,201,,Scenario 1 1-5,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,32,0,2
+1741785732619,20,Page Returning 404,404,,Scenario 1 1-3,text,true,,548,346,5,5,http://localhost:8080/test,20,0,0
+1741785732642,21,Home Page,201,,Scenario 1 1-3,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,21,0,1
+1741785733471,6,Page Returning 404,404,,Scenario 1 1-4,text,true,,548,346,5,5,http://localhost:8080/test,6,0,1
+1741785733478,6,Home Page,422,,Scenario 1 1-4,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,6,0,1
+1741785733618,6,Page Returning 404,404,,Scenario 1 1-1,text,true,,548,346,5,5,http://localhost:8080/test,6,0,0
+1741785733625,22,Home Page,201,,Scenario 1 1-1,,false,Response was null,92,452,5,5,http://localhost:8080/transactions/transacao,22,0,0
+1741785733658,6,Page Returning 404,404,,Scenario 1 1-2,text,true,,548,346,5,5,http://localhost:8080/test,6,0,0
+1741785733665,15,Home Page,201,,Scenario 1 1-2,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,15,0,0
+1741785733676,8,Page Returning 404,404,,Scenario 1 1-5,text,true,,548,346,5,5,http://localhost:8080/test,8,0,1
+1741785733685,20,Home Page,201,,Scenario 1 1-5,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,20,0,0
+1741785733751,6,Page Returning 404,404,,Scenario 1 1-3,text,true,,548,346,5,5,http://localhost:8080/test,6,0,1
+1741785733758,14,Home Page,201,,Scenario 1 1-3,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,14,0,0
+1741785734569,7,Page Returning 404,404,,Scenario 1 1-4,text,true,,548,346,5,5,http://localhost:8080/test,7,0,1
+1741785734577,8,Home Page,422,,Scenario 1 1-4,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,8,0,1
+1741785734677,7,Page Returning 404,404,,Scenario 1 1-1,text,true,,548,346,5,5,http://localhost:8080/test,7,0,1
+1741785734685,12,Home Page,201,,Scenario 1 1-1,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,12,0,0
+1741785734755,14,Page Returning 404,404,,Scenario 1 1-2,text,true,,548,346,5,5,http://localhost:8080/test,14,0,0
+1741785734760,14,Page Returning 404,404,,Scenario 1 1-5,text,true,,548,346,5,5,http://localhost:8080/test,14,0,0
+1741785734771,19,Home Page,201,,Scenario 1 1-2,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,19,0,1
+1741785734776,31,Home Page,201,,Scenario 1 1-5,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,31,0,2
+1741785734805,27,Page Returning 404,404,,Scenario 1 1-3,text,true,,548,346,5,5,http://localhost:8080/test,27,0,1
+1741785734833,29,Home Page,201,,Scenario 1 1-3,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,29,0,1
+1741785735613,11,Page Returning 404,404,,Scenario 1 1-4,text,true,,548,346,5,5,http://localhost:8080/test,11,0,1
+1741785735625,23,Home Page,201,,Scenario 1 1-4,,false,Response was null,92,452,5,5,http://localhost:8080/transactions/transacao,23,0,1
+1741785735721,7,Page Returning 404,404,,Scenario 1 1-1,text,true,,548,346,5,5,http://localhost:8080/test,7,0,1
+1741785735729,22,Home Page,201,,Scenario 1 1-1,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,22,0,1
+1741785735841,7,Page Returning 404,404,,Scenario 1 1-2,text,true,,548,346,5,5,http://localhost:8080/test,7,0,1
+1741785735869,11,Page Returning 404,404,,Scenario 1 1-3,text,true,,548,346,5,5,http://localhost:8080/test,11,0,0
+1741785735849,45,Home Page,201,,Scenario 1 1-2,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,45,0,1
+1741785735896,15,Page Returning 404,404,,Scenario 1 1-5,text,true,,548,346,5,5,http://localhost:8080/test,15,0,1
+1741785735882,37,Home Page,201,,Scenario 1 1-3,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,37,0,2
+1741785735913,26,Home Page,201,,Scenario 1 1-5,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,26,0,0
+1741785736687,15,Page Returning 404,404,,Scenario 1 1-4,text,true,,548,346,5,5,http://localhost:8080/test,15,0,1
+1741785736703,28,Home Page,201,,Scenario 1 1-4,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,28,0,1
+1741785736847,10,Page Returning 404,404,,Scenario 1 1-1,text,true,,548,346,5,5,http://localhost:8080/test,10,0,0
+1741785736859,22,Home Page,201,,Scenario 1 1-1,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,22,0,1
+1741785736899,6,Page Returning 404,404,,Scenario 1 1-2,text,true,,548,346,5,5,http://localhost:8080/test,6,0,1
+1741785736905,19,Home Page,201,,Scenario 1 1-2,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,19,0,1
+1741785736923,7,Page Returning 404,404,,Scenario 1 1-3,text,true,,548,346,5,5,http://localhost:8080/test,7,0,1
+1741785736931,18,Home Page,201,,Scenario 1 1-3,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,18,0,0
+1741785737002,9,Page Returning 404,404,,Scenario 1 1-5,text,true,,548,346,5,5,http://localhost:8080/test,9,0,1
+1741785737012,20,Home Page,201,,Scenario 1 1-5,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,20,0,0
+1741785737796,6,Page Returning 404,404,,Scenario 1 1-4,text,true,,548,346,5,5,http://localhost:8080/test,6,0,0
+1741785737803,29,Home Page,201,,Scenario 1 1-4,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,29,0,0
+1741785737981,9,Page Returning 404,404,,Scenario 1 1-1,text,true,,548,346,5,5,http://localhost:8080/test,9,0,0
+1741785737981,11,Page Returning 404,404,,Scenario 1 1-2,text,true,,548,346,5,5,http://localhost:8080/test,11,0,0
+1741785737993,13,Page Returning 404,404,,Scenario 1 1-3,text,true,,548,346,5,5,http://localhost:8080/test,13,0,0
+1741785737991,24,Home Page,201,,Scenario 1 1-1,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,24,0,0
+1741785737994,30,Home Page,201,,Scenario 1 1-2,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,30,0,0
+1741785738007,19,Home Page,201,,Scenario 1 1-3,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,19,0,0
+1741785738111,8,Page Returning 404,404,,Scenario 1 1-5,text,true,,548,346,5,5,http://localhost:8080/test,8,0,0
+1741785738120,20,Home Page,201,,Scenario 1 1-5,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,20,0,1
+1741785738911,6,Page Returning 404,404,,Scenario 1 1-4,text,true,,548,346,5,5,http://localhost:8080/test,6,0,0
+1741785739033,6,Page Returning 404,404,,Scenario 1 1-1,text,true,,548,346,5,5,http://localhost:8080/test,6,0,1
+1741785739042,5,Page Returning 404,404,,Scenario 1 1-3,text,true,,548,346,5,5,http://localhost:8080/test,5,0,0
+1741785739059,6,Page Returning 404,404,,Scenario 1 1-2,text,true,,548,346,5,5,http://localhost:8080/test,6,0,1
+1741785738918,179,Home Page,201,,Scenario 1 1-4,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,179,0,1
+1741785739048,81,Home Page,201,,Scenario 1 1-3,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,81,0,0
+1741785739067,62,Home Page,201,,Scenario 1 1-2,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,62,0,0
+1741785739040,91,Home Page,201,,Scenario 1 1-1,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,91,0,0
+1741785739209,6,Page Returning 404,404,,Scenario 1 1-5,text,true,,548,346,5,5,http://localhost:8080/test,6,0,0
+1741785739216,17,Home Page,201,,Scenario 1 1-5,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,17,0,1
+1741785740149,7,Page Returning 404,404,,Scenario 1 1-4,text,true,,548,346,5,5,http://localhost:8080/test,7,0,1
+1741785740153,10,Page Returning 404,404,,Scenario 1 1-2,text,true,,548,346,5,5,http://localhost:8080/test,10,0,1
+1741785740157,34,Home Page,201,,Scenario 1 1-4,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,34,0,0
+1741785740192,5,Page Returning 404,404,,Scenario 1 1-1,text,true,,548,346,5,5,http://localhost:8080/test,5,0,0
+1741785740164,36,Home Page,201,,Scenario 1 1-2,,false,Response was null,92,452,5,5,http://localhost:8080/transactions/transacao,36,0,0
+1741785740198,18,Home Page,201,,Scenario 1 1-1,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,18,0,1
+1741785740218,6,Page Returning 404,404,,Scenario 1 1-3,text,true,,548,346,5,5,http://localhost:8080/test,6,0,0
+1741785740225,16,Home Page,201,,Scenario 1 1-3,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,16,0,1
+1741785740316,6,Page Returning 404,404,,Scenario 1 1-5,text,true,,548,346,5,5,http://localhost:8080/test,6,0,1
+1741785740324,17,Home Page,201,,Scenario 1 1-5,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,17,0,0
+1741785741223,25,Page Returning 404,404,,Scenario 1 1-4,text,true,,548,346,5,5,http://localhost:8080/test,25,0,1
+1741785741249,6,Home Page,422,,Scenario 1 1-4,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,6,0,0
+1741785741257,12,Page Returning 404,404,,Scenario 1 1-3,text,true,,548,346,5,5,http://localhost:8080/test,12,0,1
+1741785741260,18,Page Returning 404,404,,Scenario 1 1-2,text,true,,548,346,5,5,http://localhost:8080/test,18,0,1
+1741785741275,24,Home Page,422,,Scenario 1 1-3,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,24,0,5
+1741785741280,27,Page Returning 404,404,,Scenario 1 1-1,text,true,,548,346,5,5,http://localhost:8080/test,26,0,0
+1741785741279,56,Home Page,201,,Scenario 1 1-2,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,56,0,0
+1741785741308,40,Home Page,201,,Scenario 1 1-1,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,40,0,0
+1741785741423,7,Page Returning 404,404,,Scenario 1 1-5,text,true,,548,346,5,5,http://localhost:8080/test,7,0,1
+1741785741431,29,Home Page,201,,Scenario 1 1-5,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,29,0,1
+1741785742322,7,Page Returning 404,404,,Scenario 1 1-4,text,true,,548,346,5,5,http://localhost:8080/test,7,0,1
+1741785742322,15,Page Returning 404,404,,Scenario 1 1-3,text,true,,548,346,5,5,http://localhost:8080/test,15,0,1
+1741785742331,31,Home Page,201,,Scenario 1 1-4,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,31,0,1
+1741785742338,39,Home Page,201,,Scenario 1 1-3,,false,Response was null,92,452,5,5,http://localhost:8080/transactions/transacao,39,0,0
+1741785742403,9,Page Returning 404,404,,Scenario 1 1-2,text,true,,548,346,5,5,http://localhost:8080/test,9,0,1
+1741785742422,12,Page Returning 404,404,,Scenario 1 1-1,text,true,,548,346,5,5,http://localhost:8080/test,12,0,2
+1741785742413,32,Home Page,201,,Scenario 1 1-2,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,32,0,2
+1741785742434,25,Home Page,201,,Scenario 1 1-1,,false,Response was null,92,451,5,5,http://localhost:8080/transactions/transacao,25,0,1
+1741785742554,5,Page Returning 404,404,,Scenario 1 1-5,text,true,,548,346,5,5,http://localhost:8080/test,5,0,0
+1741785742560,24,Home Page,201,,Scenario 1 1-5,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,24,0,0
+1741785743409,5,Page Returning 404,404,,Scenario 1 1-3,text,true,,548,346,5,5,http://localhost:8080/test,5,0,0
+1741785743415,19,Home Page,201,,Scenario 1 1-3,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,19,0,1
+1741785743443,6,Page Returning 404,404,,Scenario 1 1-4,text,true,,548,346,5,5,http://localhost:8080/test,5,0,0
+1741785743458,9,Page Returning 404,404,,Scenario 1 1-2,text,true,,548,346,5,5,http://localhost:8080/test,9,0,1
+1741785743462,7,Page Returning 404,404,,Scenario 1 1-1,text,true,,548,346,5,5,http://localhost:8080/test,7,0,0
+1741785743449,32,Home Page,201,,Scenario 1 1-4,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,32,0,1
+1741785743468,17,Home Page,201,,Scenario 1 1-2,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,17,0,0
+1741785743470,23,Home Page,201,,Scenario 1 1-1,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,23,0,0
+1741785743659,5,Page Returning 404,404,,Scenario 1 1-5,text,true,,548,346,5,5,http://localhost:8080/test,5,0,0
+1741785743665,20,Home Page,201,,Scenario 1 1-5,,false,Response was null,92,452,5,5,http://localhost:8080/transactions/transacao,20,0,0
+1741785744497,6,Page Returning 404,404,,Scenario 1 1-3,text,true,,548,346,5,5,http://localhost:8080/test,6,0,0
+1741785744501,8,Page Returning 404,404,,Scenario 1 1-2,text,true,,548,346,5,5,http://localhost:8080/test,8,0,0
+1741785744521,7,Page Returning 404,404,,Scenario 1 1-4,text,true,,548,346,5,5,http://localhost:8080/test,7,0,0
+1741785744504,37,Home Page,201,,Scenario 1 1-3,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,37,0,1
+1741785744528,24,Home Page,201,,Scenario 1 1-4,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,24,0,1
+1741785744510,44,Home Page,201,,Scenario 1 1-2,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,44,0,1
+1741785744590,7,Page Returning 404,404,,Scenario 1 1-1,text,true,,548,346,5,5,http://localhost:8080/test,7,0,1
+1741785744597,21,Home Page,201,,Scenario 1 1-1,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,21,0,1
+1741785744691,6,Page Returning 404,404,,Scenario 1 1-5,text,true,,548,346,5,5,http://localhost:8080/test,6,0,0
+1741785744698,20,Home Page,201,,Scenario 1 1-5,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,20,0,0
+1741785745582,5,Page Returning 404,404,,Scenario 1 1-3,text,true,,548,346,5,5,http://localhost:8080/test,5,0,0
+1741785745596,6,Page Returning 404,404,,Scenario 1 1-4,text,true,,548,346,5,5,http://localhost:8080/test,6,0,1
+1741785745588,15,Home Page,201,,Scenario 1 1-3,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,15,0,1
+1741785745606,10,Page Returning 404,404,,Scenario 1 1-2,text,true,,548,346,5,5,http://localhost:8080/test,10,0,0
+1741785745603,25,Home Page,201,,Scenario 1 1-4,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,25,0,1
+1741785745616,19,Home Page,201,,Scenario 1 1-2,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,19,0,1
+1741785745637,6,Page Returning 404,404,,Scenario 1 1-1,text,true,,548,346,5,5,http://localhost:8080/test,6,0,1
+1741785745644,16,Home Page,201,,Scenario 1 1-1,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,16,0,0
+1741785745789,6,Page Returning 404,404,,Scenario 1 1-5,text,true,,548,346,5,5,http://localhost:8080/test,6,0,0
+1741785745796,14,Home Page,201,,Scenario 1 1-5,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,14,0,1
+1741785746645,5,Page Returning 404,404,,Scenario 1 1-3,text,true,,548,346,5,5,http://localhost:8080/test,5,0,0
+1741785746662,6,Page Returning 404,404,,Scenario 1 1-1,text,true,,548,346,5,5,http://localhost:8080/test,6,0,1
+1741785746651,18,Home Page,201,,Scenario 1 1-3,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,18,0,1
+1741785746669,22,Home Page,201,,Scenario 1 1-1,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,22,0,0
+1741785746681,12,Page Returning 404,404,,Scenario 1 1-4,text,true,,548,346,5,5,http://localhost:8080/test,12,0,0
+1741785746706,7,Page Returning 404,404,,Scenario 1 1-2,text,true,,548,346,5,5,http://localhost:8080/test,7,0,1
+1741785746694,34,Home Page,201,,Scenario 1 1-4,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,34,0,0
+1741785746715,20,Home Page,201,,Scenario 1 1-2,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,20,0,1
+1741785746825,7,Page Returning 404,404,,Scenario 1 1-5,text,true,,548,346,5,5,http://localhost:8080/test,7,0,0
+1741785746833,19,Home Page,201,,Scenario 1 1-5,,false,Response was null,92,452,5,5,http://localhost:8080/transactions/transacao,19,0,0
+1741785747691,6,Page Returning 404,404,,Scenario 1 1-3,text,true,,548,346,5,5,http://localhost:8080/test,6,0,1
+1741785747708,4,Page Returning 404,404,,Scenario 1 1-1,text,true,,548,346,5,5,http://localhost:8080/test,4,0,0
+1741785747713,4,Home Page,422,,Scenario 1 1-1,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,4,0,1
+1741785747697,51,Home Page,201,,Scenario 1 1-3,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,51,0,1
+1741785747768,6,Page Returning 404,404,,Scenario 1 1-4,text,true,,548,346,5,5,http://localhost:8080/test,6,0,0
+1741785747785,6,Page Returning 404,404,,Scenario 1 1-2,text,true,,548,346,5,5,http://localhost:8080/test,6,0,0
+1741785747775,20,Home Page,201,,Scenario 1 1-4,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,20,0,0
+1741785747792,19,Home Page,201,,Scenario 1 1-2,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,19,0,1
+1741785747927,6,Page Returning 404,404,,Scenario 1 1-5,text,true,,548,346,5,5,http://localhost:8080/test,6,0,1
+1741785747934,18,Home Page,201,,Scenario 1 1-5,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,18,0,0
+1741785748793,6,Page Returning 404,404,,Scenario 1 1-1,text,true,,548,346,5,5,http://localhost:8080/test,6,0,1
+1741785748800,43,Home Page,201,,Scenario 1 1-1,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,43,0,0
+1741785748829,17,Page Returning 404,404,,Scenario 1 1-3,text,true,,548,346,5,5,http://localhost:8080/test,17,0,0
+1741785748846,15,Home Page,201,,Scenario 1 1-3,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,15,0,1
+1741785748874,7,Page Returning 404,404,,Scenario 1 1-2,text,true,,548,346,5,5,http://localhost:8080/test,7,0,1
+1741785748880,11,Page Returning 404,404,,Scenario 1 1-4,text,true,,548,346,5,5,http://localhost:8080/test,11,0,1
+1741785748882,21,Home Page,201,,Scenario 1 1-2,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,21,0,0
+1741785748892,19,Home Page,201,,Scenario 1 1-4,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,19,0,0
+1741785748958,6,Page Returning 404,404,,Scenario 1 1-5,text,true,,548,346,5,5,http://localhost:8080/test,6,0,1
+1741785748965,6,Home Page,422,,Scenario 1 1-5,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,6,0,1
+1741785749901,5,Page Returning 404,404,,Scenario 1 1-1,text,true,,548,346,5,5,http://localhost:8080/test,5,0,0
+1741785749907,21,Home Page,201,,Scenario 1 1-1,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,21,0,0
+1741785749940,5,Page Returning 404,404,,Scenario 1 1-3,text,true,,548,346,5,5,http://localhost:8080/test,5,0,0
+1741785749949,8,Page Returning 404,404,,Scenario 1 1-4,text,true,,548,346,5,5,http://localhost:8080/test,8,0,0
+1741785749946,25,Home Page,201,,Scenario 1 1-3,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,25,0,0
+1741785749958,21,Home Page,201,,Scenario 1 1-4,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,21,0,1
+1741785749976,7,Page Returning 404,404,,Scenario 1 1-2,text,true,,548,346,5,5,http://localhost:8080/test,7,0,1
+1741785749982,10,Page Returning 404,404,,Scenario 1 1-5,text,true,,548,346,5,5,http://localhost:8080/test,10,0,1
+1741785749985,28,Home Page,201,,Scenario 1 1-2,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,28,0,0
+1741785749993,30,Home Page,201,,Scenario 1 1-5,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,30,0,0
+1741785750974,6,Page Returning 404,404,,Scenario 1 1-1,text,true,,548,346,5,5,http://localhost:8080/test,6,0,0
+1741785750981,23,Home Page,201,,Scenario 1 1-1,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,23,0,0
+1741785751016,6,Page Returning 404,404,,Scenario 1 1-3,text,true,,548,346,5,5,http://localhost:8080/test,6,0,0
+1741785751035,17,Page Returning 404,404,,Scenario 1 1-4,text,true,,548,346,5,5,http://localhost:8080/test,17,0,0
+1741785751023,43,Home Page,201,,Scenario 1 1-3,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,43,0,1
+1741785751055,25,Home Page,201,,Scenario 1 1-4,,false,Response was null,92,451,5,5,http://localhost:8080/transactions/transacao,25,0,3
+1741785751089,9,Page Returning 404,404,,Scenario 1 1-2,text,true,,548,346,5,5,http://localhost:8080/test,9,0,0
+1741785751101,15,Page Returning 404,404,,Scenario 1 1-5,text,true,,548,346,5,5,http://localhost:8080/test,15,0,0
+1741785751100,23,Home Page,201,,Scenario 1 1-2,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,23,0,0
+1741785751116,15,Home Page,422,,Scenario 1 1-5,,false,Response was null,92,452,5,5,http://localhost:8080/transactions/transacao,15,0,2
+1741785752015,10,Page Returning 404,404,,Scenario 1 1-1,text,true,,548,346,5,5,http://localhost:8080/test,10,0,1
+1741785752025,21,Home Page,201,,Scenario 1 1-1,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,21,0,1
+1741785752077,6,Page Returning 404,404,,Scenario 1 1-3,text,true,,548,346,5,5,http://localhost:8080/test,6,0,0
+1741785752084,21,Home Page,201,,Scenario 1 1-3,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,21,0,0
+1741785752134,10,Page Returning 404,404,,Scenario 1 1-4,text,true,,548,346,5,5,http://localhost:8080/test,10,0,0
+1741785752145,8,Home Page,422,,Scenario 1 1-4,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,8,0,0
+1741785752195,8,Page Returning 404,404,,Scenario 1 1-5,text,true,,548,346,5,5,http://localhost:8080/test,8,0,1
+1741785752204,20,Home Page,201,,Scenario 1 1-5,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,20,0,0
+1741785752218,10,Page Returning 404,404,,Scenario 1 1-2,text,true,,548,346,5,5,http://localhost:8080/test,10,0,1
+1741785752229,25,Home Page,201,,Scenario 1 1-2,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,25,0,1
+1741785753097,6,Page Returning 404,404,,Scenario 1 1-1,text,true,,548,346,5,5,http://localhost:8080/test,6,0,0
+1741785753103,18,Home Page,201,,Scenario 1 1-1,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,18,0,1
+1741785753175,5,Page Returning 404,404,,Scenario 1 1-3,text,true,,548,346,5,5,http://localhost:8080/test,5,0,0
+1741785753198,6,Page Returning 404,404,,Scenario 1 1-4,text,true,,548,346,5,5,http://localhost:8080/test,6,0,0
+1741785753180,25,Home Page,201,,Scenario 1 1-3,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,25,0,1
+1741785753205,17,Home Page,201,,Scenario 1 1-4,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,17,0,0
+1741785753291,6,Page Returning 404,404,,Scenario 1 1-5,text,true,,548,346,5,5,http://localhost:8080/test,6,0,1
+1741785753296,6,Page Returning 404,404,,Scenario 1 1-2,text,true,,548,346,5,5,http://localhost:8080/test,6,0,1
+1741785753297,16,Home Page,201,,Scenario 1 1-5,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,16,0,1
+1741785753303,19,Home Page,201,,Scenario 1 1-2,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,19,0,1
+1741785754183,6,Page Returning 404,404,,Scenario 1 1-1,text,true,,548,346,5,5,http://localhost:8080/test,6,0,1
+1741785754189,16,Home Page,201,,Scenario 1 1-1,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,16,0,1
+1741785754224,5,Page Returning 404,404,,Scenario 1 1-3,text,true,,548,346,5,5,http://localhost:8080/test,5,0,1
+1741785754230,6,Home Page,422,,Scenario 1 1-3,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,6,0,1
+1741785754278,5,Page Returning 404,404,,Scenario 1 1-4,text,true,,548,346,5,5,http://localhost:8080/test,5,0,0
+1741785754284,13,Home Page,201,,Scenario 1 1-4,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,13,0,0
+1741785754372,5,Page Returning 404,404,,Scenario 1 1-5,text,true,,548,346,5,5,http://localhost:8080/test,5,0,1
+1741785754378,19,Home Page,201,,Scenario 1 1-5,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,19,0,1
+1741785754413,12,Page Returning 404,404,,Scenario 1 1-2,text,true,,548,346,5,5,http://localhost:8080/test,12,0,0
+1741785754426,21,Home Page,201,,Scenario 1 1-2,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,21,0,1
+1741785755288,6,Page Returning 404,404,,Scenario 1 1-1,text,true,,548,346,5,5,http://localhost:8080/test,6,0,0
+1741785755288,9,Page Returning 404,404,,Scenario 1 1-3,text,true,,548,346,5,5,http://localhost:8080/test,9,0,0
+1741785755298,24,Home Page,201,,Scenario 1 1-3,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,24,0,0
+1741785755295,36,Home Page,201,,Scenario 1 1-1,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,36,0,1
+1741785755380,6,Page Returning 404,404,,Scenario 1 1-4,text,true,,548,346,5,5,http://localhost:8080/test,6,0,0
+1741785755387,8,Home Page,422,,Scenario 1 1-4,,false,Response was null,92,452,5,5,http://localhost:8080/transactions/transacao,8,0,0
+1741785755418,7,Page Returning 404,404,,Scenario 1 1-5,text,true,,548,346,5,5,http://localhost:8080/test,7,0,0
+1741785755427,30,Home Page,201,,Scenario 1 1-5,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,30,0,0
+1741785755548,11,Page Returning 404,404,,Scenario 1 1-2,text,true,,548,346,5,5,http://localhost:8080/test,11,0,0
+1741785755560,20,Home Page,201,,Scenario 1 1-2,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,20,0,1
+1741785756414,8,Page Returning 404,404,,Scenario 1 1-3,text,true,,548,346,5,5,http://localhost:8080/test,8,0,0
+1741785756430,8,Page Returning 404,404,,Scenario 1 1-1,text,true,,548,346,5,5,http://localhost:8080/test,8,0,1
+1741785756423,27,Home Page,201,,Scenario 1 1-3,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,27,0,0
+1741785756456,8,Page Returning 404,404,,Scenario 1 1-4,text,true,,548,346,5,5,http://localhost:8080/test,8,0,0
+1741785756439,28,Home Page,201,,Scenario 1 1-1,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,28,0,1
+1741785756458,18,Page Returning 404,404,,Scenario 1 1-5,text,true,,548,346,5,5,http://localhost:8080/test,18,0,3
+1741785756464,26,Home Page,201,,Scenario 1 1-4,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,26,0,1
+1741785756477,20,Home Page,201,,Scenario 1 1-5,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,20,0,0
+1741785756674,5,Page Returning 404,404,,Scenario 1 1-2,text,true,,548,346,5,5,http://localhost:8080/test,5,0,1
+1741785756680,17,Home Page,201,,Scenario 1 1-2,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,17,0,1
+1741785757458,6,Page Returning 404,404,,Scenario 1 1-3,text,true,,548,346,5,5,http://localhost:8080/test,6,0,0
+1741785757464,28,Home Page,201,,Scenario 1 1-3,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,28,0,1
+1741785757504,6,Page Returning 404,404,,Scenario 1 1-4,text,true,,548,346,5,5,http://localhost:8080/test,6,0,1
+1741785757518,5,Page Returning 404,404,,Scenario 1 1-1,text,true,,548,346,5,5,http://localhost:8080/test,5,0,0
+1741785757511,24,Home Page,201,,Scenario 1 1-4,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,24,0,0
+1741785757528,11,Page Returning 404,404,,Scenario 1 1-5,text,true,,548,346,5,5,http://localhost:8080/test,11,0,1
+1741785757524,22,Home Page,201,,Scenario 1 1-1,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,22,0,0
+1741785757540,25,Home Page,201,,Scenario 1 1-5,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,25,0,4
+1741785757787,6,Page Returning 404,404,,Scenario 1 1-2,text,true,,548,346,5,5,http://localhost:8080/test,6,0,1
+1741785757793,13,Home Page,201,,Scenario 1 1-2,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,13,0,1
+1741785758521,6,Page Returning 404,404,,Scenario 1 1-3,text,true,,548,346,5,5,http://localhost:8080/test,6,0,0
+1741785758528,12,Home Page,201,,Scenario 1 1-3,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,12,0,0
+1741785758537,7,Page Returning 404,404,,Scenario 1 1-4,text,true,,548,346,5,5,http://localhost:8080/test,7,0,1
+1741785758545,7,Home Page,422,,Scenario 1 1-4,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,7,0,0
+1741785758599,6,Page Returning 404,404,,Scenario 1 1-5,text,true,,548,346,5,5,http://localhost:8080/test,6,0,1
+1741785758605,18,Home Page,201,,Scenario 1 1-5,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,18,0,1
+1741785758632,5,Page Returning 404,404,,Scenario 1 1-1,text,true,,548,346,5,5,http://localhost:8080/test,5,0,0
+1741785758638,19,Home Page,201,,Scenario 1 1-1,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,19,0,0
+1741785758883,6,Page Returning 404,404,,Scenario 1 1-2,text,true,,548,346,5,5,http://localhost:8080/test,6,0,0
+1741785758889,19,Home Page,201,,Scenario 1 1-2,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,19,0,1
+1741785759603,4,Page Returning 404,404,,Scenario 1 1-3,text,true,,548,346,5,5,http://localhost:8080/test,4,0,0
+1741785759608,8,Page Returning 404,404,,Scenario 1 1-4,text,true,,548,346,5,5,http://localhost:8080/test,8,0,0
+1741785759608,25,Home Page,201,,Scenario 1 1-3,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,25,0,0
+1741785759617,33,Home Page,201,,Scenario 1 1-4,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,33,0,0
+1741785759681,6,Page Returning 404,404,,Scenario 1 1-5,text,true,,548,346,5,5,http://localhost:8080/test,6,0,0
+1741785759689,11,Home Page,422,,Scenario 1 1-5,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,11,0,1
+1741785759730,6,Page Returning 404,404,,Scenario 1 1-1,text,true,,548,346,5,5,http://localhost:8080/test,6,0,1
+1741785759737,59,Home Page,201,,Scenario 1 1-1,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,59,0,1
+1741785759965,6,Page Returning 404,404,,Scenario 1 1-2,text,true,,548,346,5,5,http://localhost:8080/test,6,0,1
+1741785759972,18,Home Page,201,,Scenario 1 1-2,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,18,0,1
+1741785760683,6,Page Returning 404,404,,Scenario 1 1-4,text,true,,548,346,5,5,http://localhost:8080/test,6,0,1
+1741785760700,6,Page Returning 404,404,,Scenario 1 1-3,text,true,,548,346,5,5,http://localhost:8080/test,6,0,0
+1741785760690,20,Home Page,201,,Scenario 1 1-4,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,20,0,1
+1741785760708,8,Page Returning 404,404,,Scenario 1 1-5,text,true,,548,346,5,5,http://localhost:8080/test,8,0,0
+1741785760706,21,Home Page,201,,Scenario 1 1-3,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,21,0,1
+1741785760717,11,Home Page,422,,Scenario 1 1-5,,false,Response was null,92,452,5,5,http://localhost:8080/transactions/transacao,11,0,3
+1741785760882,5,Page Returning 404,404,,Scenario 1 1-1,text,true,,548,346,5,5,http://localhost:8080/test,5,0,0
+1741785760888,20,Home Page,201,,Scenario 1 1-1,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,20,0,0
+1741785761094,5,Page Returning 404,404,,Scenario 1 1-2,text,true,,548,346,5,5,http://localhost:8080/test,5,0,0
+1741785761100,15,Home Page,201,,Scenario 1 1-2,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,15,0,1
+1741785761788,6,Page Returning 404,404,,Scenario 1 1-3,text,true,,548,346,5,5,http://localhost:8080/test,6,0,1
+1741785761788,6,Page Returning 404,404,,Scenario 1 1-4,text,true,,548,346,5,5,http://localhost:8080/test,6,0,0
+1741785761822,7,Page Returning 404,404,,Scenario 1 1-5,text,true,,548,346,5,5,http://localhost:8080/test,7,0,1
+1741785761794,48,Home Page,201,,Scenario 1 1-4,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,48,0,1
+1741785761794,74,Home Page,201,,Scenario 1 1-3,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,74,0,1
+1741785761830,38,Home Page,201,,Scenario 1 1-5,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,38,0,0
+1741785761945,5,Page Returning 404,404,,Scenario 1 1-1,text,true,,548,346,5,5,http://localhost:8080/test,5,0,0
+1741785761951,24,Home Page,201,,Scenario 1 1-1,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,24,0,1
+1741785762194,8,Page Returning 404,404,,Scenario 1 1-2,text,true,,548,346,5,5,http://localhost:8080/test,8,0,0
+1741785762203,17,Home Page,422,,Scenario 1 1-2,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,17,0,2
+1741785762879,5,Page Returning 404,404,,Scenario 1 1-4,text,true,,548,346,5,5,http://localhost:8080/test,5,0,1
+1741785762886,9,Page Returning 404,404,,Scenario 1 1-3,text,true,,548,346,5,5,http://localhost:8080/test,9,0,1
+1741785762885,16,Home Page,201,,Scenario 1 1-4,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,16,0,0
+1741785762895,13,Home Page,201,,Scenario 1 1-3,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,13,0,1
+1741785762941,8,Page Returning 404,404,,Scenario 1 1-5,text,true,,548,346,5,5,http://localhost:8080/test,8,0,0
+1741785762949,18,Home Page,201,,Scenario 1 1-5,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,18,0,1
+1741785763037,7,Page Returning 404,404,,Scenario 1 1-1,text,true,,548,346,5,5,http://localhost:8080/test,7,0,1
+1741785763044,23,Home Page,201,,Scenario 1 1-1,,false,Response was null,92,452,5,5,http://localhost:8080/transactions/transacao,23,0,1
+1741785763308,5,Page Returning 404,404,,Scenario 1 1-2,text,true,,548,346,5,5,http://localhost:8080/test,5,0,0
+1741785763314,11,Home Page,201,,Scenario 1 1-2,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,11,0,0
+1741785763957,5,Page Returning 404,404,,Scenario 1 1-3,text,true,,548,346,5,5,http://localhost:8080/test,5,0,0
+1741785763963,6,Home Page,422,,Scenario 1 1-3,,false,Response was null,92,452,5,5,http://localhost:8080/transactions/transacao,6,0,0
+1741785764000,5,Page Returning 404,404,,Scenario 1 1-4,text,true,,548,346,5,5,http://localhost:8080/test,5,0,0
+1741785764006,20,Home Page,201,,Scenario 1 1-4,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,20,0,0
+1741785764032,7,Page Returning 404,404,,Scenario 1 1-5,text,true,,548,346,5,5,http://localhost:8080/test,7,0,0
+1741785764039,21,Home Page,201,,Scenario 1 1-5,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,21,0,1
+1741785764125,7,Page Returning 404,404,,Scenario 1 1-1,text,true,,548,346,5,5,http://localhost:8080/test,7,0,1
+1741785764133,18,Home Page,201,,Scenario 1 1-1,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,18,0,0
+1741785764407,9,Page Returning 404,404,,Scenario 1 1-2,text,true,,548,346,5,5,http://localhost:8080/test,9,0,0
+1741785764417,19,Home Page,201,,Scenario 1 1-2,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,19,0,0
+1741785765017,6,Page Returning 404,404,,Scenario 1 1-3,text,true,,548,346,5,5,http://localhost:8080/test,6,0,0
+1741785765024,35,Home Page,201,,Scenario 1 1-3,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,35,0,1
+1741785765099,5,Page Returning 404,404,,Scenario 1 1-4,text,true,,548,346,5,5,http://localhost:8080/test,5,0,0
+1741785765106,11,Page Returning 404,404,,Scenario 1 1-5,text,true,,548,346,5,5,http://localhost:8080/test,11,0,1
+1741785765105,30,Home Page,201,,Scenario 1 1-4,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,30,0,1
+1741785765121,21,Home Page,201,,Scenario 1 1-5,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,21,0,0
+1741785765217,7,Page Returning 404,404,,Scenario 1 1-1,text,true,,548,346,5,5,http://localhost:8080/test,7,0,0
+1741785765225,18,Home Page,201,,Scenario 1 1-1,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,18,0,0
+1741785765520,5,Page Returning 404,404,,Scenario 1 1-2,text,true,,548,346,5,5,http://localhost:8080/test,5,0,0
+1741785765526,18,Home Page,201,,Scenario 1 1-2,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,18,0,0
+1741785766105,5,Page Returning 404,404,,Scenario 1 1-3,text,true,,548,346,5,5,http://localhost:8080/test,5,0,0
+1741785766110,15,Home Page,201,,Scenario 1 1-3,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,15,0,1
+1741785766196,8,Page Returning 404,404,,Scenario 1 1-5,text,true,,548,346,5,5,http://localhost:8080/test,8,0,0
+1741785766205,15,Home Page,201,,Scenario 1 1-5,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,15,0,0
+1741785766224,7,Page Returning 404,404,,Scenario 1 1-4,text,true,,548,346,5,5,http://localhost:8080/test,7,0,1
+1741785766232,20,Home Page,201,,Scenario 1 1-4,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,20,0,1
+1741785766248,8,Page Returning 404,404,,Scenario 1 1-1,text,true,,548,346,5,5,http://localhost:8080/test,8,0,0
+1741785766256,21,Home Page,201,,Scenario 1 1-1,,false,Response was null,92,452,5,5,http://localhost:8080/transactions/transacao,21,0,1
+1741785766559,16,Page Returning 404,404,,Scenario 1 1-2,text,true,,548,346,5,5,http://localhost:8080/test,16,0,1
+1741785766576,27,Home Page,201,,Scenario 1 1-2,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,27,0,1
+1741785767216,5,Page Returning 404,404,,Scenario 1 1-3,text,true,,548,346,5,5,http://localhost:8080/test,5,0,0
+1741785767221,14,Home Page,201,,Scenario 1 1-3,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,14,0,1
+1741785767302,6,Page Returning 404,404,,Scenario 1 1-4,text,true,,548,346,5,5,http://localhost:8080/test,6,0,0
+1741785767316,5,Page Returning 404,404,,Scenario 1 1-5,text,true,,548,346,5,5,http://localhost:8080/test,5,0,0
+1741785767309,17,Home Page,201,,Scenario 1 1-4,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,17,0,1
+1741785767321,14,Home Page,201,,Scenario 1 1-5,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,14,0,1
+1741785767363,5,Page Returning 404,404,,Scenario 1 1-1,text,true,,548,346,5,5,http://localhost:8080/test,5,0,0
+1741785767369,16,Home Page,201,,Scenario 1 1-1,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,16,0,1
+1741785767675,5,Page Returning 404,404,,Scenario 1 1-2,text,true,,548,346,5,5,http://localhost:8080/test,5,0,1
+1741785767681,13,Home Page,201,,Scenario 1 1-2,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,13,0,0
+1741785768295,5,Page Returning 404,404,,Scenario 1 1-3,text,true,,548,346,5,5,http://localhost:8080/test,5,0,0
+1741785768301,18,Home Page,201,,Scenario 1 1-3,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,18,0,1
+1741785768341,6,Page Returning 404,404,,Scenario 1 1-4,text,true,,548,346,5,5,http://localhost:8080/test,6,0,1
+1741785768348,12,Home Page,201,,Scenario 1 1-4,,false,Response was null,92,452,5,5,http://localhost:8080/transactions/transacao,12,0,1
+1741785768395,7,Page Returning 404,404,,Scenario 1 1-5,text,true,,548,346,5,5,http://localhost:8080/test,7,0,1
+1741785768403,17,Home Page,201,,Scenario 1 1-5,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,17,0,1
+1741785768436,9,Page Returning 404,404,,Scenario 1 1-1,text,true,,548,346,5,5,http://localhost:8080/test,9,0,0
+1741785768446,14,Home Page,201,,Scenario 1 1-1,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,14,0,0
+1741785768734,5,Page Returning 404,404,,Scenario 1 1-2,text,true,,548,346,5,5,http://localhost:8080/test,5,0,0
+1741785768739,13,Home Page,201,,Scenario 1 1-2,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,13,0,1
+1741785769348,7,Page Returning 404,404,,Scenario 1 1-3,text,true,,548,346,5,5,http://localhost:8080/test,7,0,1
+1741785769356,30,Home Page,201,,Scenario 1 1-3,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,30,0,1
+1741785769410,8,Page Returning 404,404,,Scenario 1 1-4,text,true,,548,346,5,5,http://localhost:8080/test,8,0,0
+1741785769419,25,Home Page,201,,Scenario 1 1-4,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,25,0,0
+1741785769460,9,Page Returning 404,404,,Scenario 1 1-5,text,true,,548,346,5,5,http://localhost:8080/test,9,0,1
+1741785769505,9,Page Returning 404,404,,Scenario 1 1-1,text,true,,548,346,5,5,http://localhost:8080/test,9,0,1
+1741785769470,52,Home Page,201,,Scenario 1 1-5,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,52,0,0
+1741785769515,21,Home Page,201,,Scenario 1 1-1,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,21,0,5
+1741785769759,5,Page Returning 404,404,,Scenario 1 1-2,text,true,,548,346,5,5,http://localhost:8080/test,5,0,0
+1741785769765,22,Home Page,201,,Scenario 1 1-2,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,22,0,1
+1741785770388,8,Page Returning 404,404,,Scenario 1 1-3,text,true,,548,346,5,5,http://localhost:8080/test,8,0,1
+1741785770396,32,Home Page,201,,Scenario 1 1-3,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,32,0,1
+1741785770490,6,Page Returning 404,404,,Scenario 1 1-4,text,true,,548,346,5,5,http://localhost:8080/test,6,0,1
+1741785770496,24,Home Page,201,,Scenario 1 1-4,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,24,0,1
+1741785770550,11,Page Returning 404,404,,Scenario 1 1-1,text,true,,548,346,5,5,http://localhost:8080/test,11,0,1
+1741785770563,16,Page Returning 404,404,,Scenario 1 1-5,text,true,,548,346,5,5,http://localhost:8080/test,16,0,0
+1741785770562,21,Home Page,201,,Scenario 1 1-1,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,21,0,0
+1741785770582,21,Home Page,201,,Scenario 1 1-5,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,21,0,0
+1741785770851,5,Page Returning 404,404,,Scenario 1 1-2,text,true,,548,346,5,5,http://localhost:8080/test,5,0,0
+1741785770857,13,Home Page,201,,Scenario 1 1-2,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,13,0,0
+1741785771451,4,Page Returning 404,404,,Scenario 1 1-3,text,true,,548,346,5,5,http://localhost:8080/test,4,0,0
+1741785771456,14,Home Page,201,,Scenario 1 1-3,,false,Response was null,92,453,5,5,http://localhost:8080/transactions/transacao,14,0,0
+1741785771562,6,Page Returning 404,404,,Scenario 1 1-4,text,true,,548,346,4,4,http://localhost:8080/test,6,0,0
+1741785771569,9,Home Page,422,,Scenario 1 1-4,,false,Response was null,92,453,4,4,http://localhost:8080/transactions/transacao,9,0,0
+1741785771604,6,Page Returning 404,404,,Scenario 1 1-5,text,true,,548,346,3,3,http://localhost:8080/test,6,0,0
+1741785771611,26,Home Page,201,,Scenario 1 1-5,,false,Response was null,92,452,3,3,http://localhost:8080/transactions/transacao,26,0,1
+1741785771644,5,Page Returning 404,404,,Scenario 1 1-1,text,true,,548,346,2,2,http://localhost:8080/test,5,0,0
+1741785771650,3,Home Page,422,,Scenario 1 1-1,,false,Response was null,92,453,2,2,http://localhost:8080/transactions/transacao,3,0,0
+1741785771959,5,Page Returning 404,404,,Scenario 1 1-2,text,true,,548,346,1,1,http://localhost:8080/test,5,0,0
+1741785771965,22,Home Page,201,,Scenario 1 1-2,,false,Response was null,92,453,1,1,http://localhost:8080/transactions/transacao,22,0,0
